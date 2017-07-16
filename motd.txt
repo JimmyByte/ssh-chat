@@ -1,1 +1,2 @@
-[39;91mWelcome to chat.shazow.net, enter /help for more.  [0m
+This isn't ssh-chat, this is my(jimmybot@teknik.io) fork
+see the code and report issues to : github.com/jmfgdev/ssh-chat
