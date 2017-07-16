@@ -1,33 +1,12 @@
 # ssh-chat
 
+[![Build Status](https://travis-ci.org/jmfgdev/ssh-chat.svg?branch=master)](https://travis-ci.org/jmfgdev/ssh-chat)
+
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/jmfgdev/ssh-chat/master/LICENSE)
-
-[![Build Status](https://travis-ci.org/shazow/ssh-chat.svg?branch=master)](https://travis-ci.org/shazow/ssh-chat)
-
-[![Bountysource](https://www.bountysource.com/badge/team?team_id=52292&style=bounties_received)](https://www.bountysource.com/teams/ssh-chat/issues?utm_source=ssh-chat&utm_medium=shield&utm_campaign=bounties_received)
 
 [![GoDoc](https://godoc.org/github.com/shazow/ssh-chat?status.svg)](https://godoc.org/github.com/shazow/ssh-chat)
 
 Custom SSH server written in Go. Instead of a shell, you get a chat prompt.
-
-## Demo
-
-Join the party:
-
-```bash
-ssh chat.shazow.net
-```
-
-The server's RSA key fingerprint is `MD5:e5:d5:d1:75:90:38:42:f6:c7:03:d7:d0:56:7d:6a:db` or `SHA256:HQDLlZsXL3t0lV5CHM0OXeZ5O6PcfHuzkS8cRbbTLBI`. If you see something different, you might be [MITM](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)'d.
-
-(Apologies if the server is down, try again shortly.)
-
-## Downloading a release
-
-Recent releases include builds for MacOS (darwin/amd64) and Linux (386,
-amd64, and ARM6 for your RaspberryPi).
-
-**[Grab the latest release here](https://github.com/shazow/ssh-chat/releases/)**.
 
 ## Compiling / Developing
 
