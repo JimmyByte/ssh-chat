@@ -3,18 +3,9 @@ notifications:
 
 language: go
 
-go:
-  - 1.6
-  - 1.7
-
 env:
   - CGO_ENABLED=0
 
-install:
-  - go get -t ./...
-  - go get github.com/gordonklaus/ineffassign
-
 script:
-  - ineffassign .
   - go vet $(go list ./... | grep -v /vendor/)
   - go test -v $(go list ./... | grep -v /vendor/)
