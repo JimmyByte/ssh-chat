@@ -8,21 +8,19 @@
 
 [![GoDoc](https://godoc.org/github.com/shazow/ssh-chat?status.svg)](https://godoc.org/github.com/shazow/ssh-chat)
 
-
 Custom SSH server written in Go. Instead of a shell, you get a chat prompt.
 
 ## Demo
 
 Join the party:
 
-```
-$ ssh chat.shazow.net
+```bash
+ssh chat.shazow.net
 ```
 
 The server's RSA key fingerprint is `MD5:e5:d5:d1:75:90:38:42:f6:c7:03:d7:d0:56:7d:6a:db` or `SHA256:HQDLlZsXL3t0lV5CHM0OXeZ5O6PcfHuzkS8cRbbTLBI`. If you see something different, you might be [MITM](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)'d.
 
 (Apologies if the server is down, try again shortly.)
-
 
 ## Downloading a release
 
@@ -30,7 +28,6 @@ Recent releases include builds for MacOS (darwin/amd64) and Linux (386,
 amd64, and ARM6 for your RaspberryPi).
 
 **[Grab the latest release here](https://github.com/shazow/ssh-chat/releases/)**.
-
 
 ## Compiling / Developing
 
@@ -41,13 +38,12 @@ If you're developing on this repo, there is a handy Makefile that should set
 things up with `make run`.
 
 Additionally, `make debug` runs the server with an http `pprof` server. This allows you to open
-[http://localhost:6060/debug/pprof/]() and view profiling data. See
-[net/http/pprof](http://golang.org/pkg/net/http/pprof/) for more information about `pprof`.
-
+[http://localhost:6060/debug/pprof/](http://localhost:6060/debug/pprof/) and view profiling data. See
+[pprof](https://golang.org/pkg/net/http/pprof) for more information about `pprof`.
 
 ## Quick Start
 
-```
+```bash
 Usage:
   ssh-chat [OPTIONS]
 
@@ -69,8 +65,8 @@ Help Options:
 After doing `go get github.com/shazow/ssh-chat/...` on this repo, you should be able
 to run a command like:
 
-```
-$ ssh-chat --verbose --bind ":22" --identity ~/.ssh/id_dsa
+```bash
+ssh-chat --verbose --bind ":22" --identity ~/.ssh/id_dsa
 ```
 
 To bind on port 22, you'll need to make sure it's free (move any other ssh
