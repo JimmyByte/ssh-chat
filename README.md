@@ -1,5 +1,7 @@
 # ssh-chat
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/jmfgdev/ssh-chat)](https://goreportcard.com/report/github.com/jmfgdev/ssh-chat)
+
 [![Build Status](https://travis-ci.org/jmfgdev/ssh-chat.svg?branch=master)](https://travis-ci.org/jmfgdev/ssh-chat)
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/jmfgdev/ssh-chat/master/LICENSE)
