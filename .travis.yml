@@ -6,3 +6,4 @@ env:
   - CGO_ENABLED=0
 script:
   - go vet $(go list ./... | grep -v /vendor/)
+sudo: false
